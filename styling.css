@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(images/background.jpg);
+    background-image: url(images/dual_monitor_screen_abstract_3840x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,12 +70,9 @@ header{
     /* padding: 10px; */
 }
 
-#hamburder-menu{
-    /* display: none; */
-}
-
 #ham-menu {
-    background:#000000a8;
+    /* background:#000000a8; */
+    background: rgba(0, 0, 0, 0.911);
     width: 20rem;
     height: 400px;
     position: fixed;
@@ -171,7 +168,8 @@ header{
 #introduction{
     padding: 20px;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
     flex-wrap: wrap;
     z-index:1;
     background-color: #000000a8;
@@ -210,4 +208,10 @@ header{
 #details{
     flex: 2 0 0;
     padding: 10px;
+}
+
+@media only screen and (max-width: 850px){
+    #introduction{
+        flex-direction: column;
+    }
 }
