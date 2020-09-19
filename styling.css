@@ -8,6 +8,7 @@
 
 body{
     background-image: url(images/dual_monitor_screen_abstract_3840x1080.jpg);
+    /* background-color: bisque; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,8 +27,12 @@ header{
 }
 
 #logo{
-    font-size: 30px;
-    flex: 1 0 200px;
+    
+    flex: 1 0 260px;
+}
+#logo p{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
 }
 
 #hamburder-menu{
@@ -214,4 +219,52 @@ header{
     #introduction{
         flex-direction: column;
     }
+}
+
+#certeficates{
+    background-color: #000000a8;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#certeficates h1{
+    font-size: 1.7em;
+    align-self: flex-start;
+    text-transform: capitalize;
+}
+
+#certificates_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+#certificates_gallery img{
+    opacity: 0.5;
+    
+    max-width: 400px;
+    max-height: 300px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    transition: transform .2s;
+}
+
+#certificates_gallery img:hover{
+    opacity: 1;
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.2); 
+    z-index: 2;
+    padding: 5px;
+    /* background-color:  #000000a8; */
+    border: 2px solid rgba(0, 0, 0, 0.521);
 }
