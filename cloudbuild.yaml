@@ -13,13 +13,13 @@ steps:
     args:
       - run
       - deploy
-      - $_SERVICE_NAME
+      - portfolio
       - '--image'
       - 'asia-south2-docker.pkg.dev/project-001-v1/docker-central/portfolio:$COMMIT_SHA'
       - '--region'
-      - $_DEPLOY_REGION
+      - asia-south2
       - '--platform'
-      - $_PLATFORM
+      - managed
     entrypoint: gcloud
 timeout: 1200s
 images:
