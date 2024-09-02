@@ -1,0 +1,21 @@
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  max-width: 1000px;
+  padding: 0px;
+  text-align: left;
+  margin: auto;
+}
+
+.wrapper1 button {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.wrapper1 p {
+  max-width: 550px;
+}

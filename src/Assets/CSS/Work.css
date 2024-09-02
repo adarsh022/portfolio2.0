@@ -1,0 +1,163 @@
+.work {
+  max-width: 900px;
+  padding: 100px 0;
+  margin: auto;
+/* max-width: 900px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.work h3 {
+  margin: 0;
+}
+
+.work .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.work .container-box {
+  display: flex;
+  flex-direction: column;
+  height: 82%;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.work .container-box .container-box-2 .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work .container-box .container-box-2 img {
+  height: 2.5rem;
+  color: aliceblue;
+}
+
+.work h3 {
+  color: #ccd6f6;
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: 'Poppins', monospace;
+}
+
+.work p {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.work ul {
+  font-size: 0.8rem;
+  font-family: 'Poppins', monospace;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.work ul li {
+  margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  .text-rotate {
+    display: none !important;
+  }
+  .container {
+    display: block !important;
+  }
+  .work-card {
+    margin-bottom: 1rem;
+  }
+  .work {
+    padding-top: 100px !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.borderAnimation {
+  display: inline-block;
+  position: relative;
+  background: none;
+  height: 100%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.09);
+}
+
+.span {
+  display: block;
+  height: 100%;
+}
+
+.borderAnimation::before,
+.borderAnimation::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.span::before,
+.span::after {
+  content: '';
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.borderAnimation:hover::before,
+.borderAnimation:hover::after {
+  width: 100%;
+}
+
+.borderAnimation:hover span::before,
+.borderAnimation:hover span::after {
+  height: 100%;
+}
+
+/*----- button 1 -----*/
+/*----- button 6 -----*/
+.btn-6::before {
+  left: 50%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-6::after {
+  left: 50%;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-6 span::before {
+  left: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+
+.btn-6 span::after {
+  right: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+
+.btn-6:hover::before,
+.btn-6:hover::after {
+  left: 0;
+}
+
+.btn-6:hover span::before,
+.btn-6:hover span::after {
+  top: 0;
+}

@@ -1,0 +1,25 @@
+@import url('Body.css');
+@import url('Card.css');
+@import url('Contact.css');
+@import url('Experience.css');
+@import url('Fonts.css');
+@import url('Footer.css');
+@import url('Header.css');
+@import url('Hero.css');
+@import url('VerticalElement.css');
+
+main {
+  margin: 0px auto;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.main {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

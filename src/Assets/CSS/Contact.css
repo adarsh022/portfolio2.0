@@ -1,0 +1,36 @@
+.contact {
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact h1 {
+  line-height: 50px;
+  font-size: 60px;
+  color: #ccd6f6;
+}
+
+.contact button {
+  margin: 0;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    height: 100vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .contact p {
+    margin: 0px !important;
+  }
+  .contact h1 {
+    font-size: 2rem !important;
+  }
+}

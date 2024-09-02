@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.jobs {
+  max-width: 700px;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.jobs h2 {
+  text-align: left;
+  margin-top: 10;
+  margin-bottom: 40px;
+}
+
+.jobs .inner .text-rotate {
+  writing-mode: vertical-rl;
+  margin: auto;
+}
+
+.jobs .inner .text-rotate p {
+  transform: rotate(180deg);
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  color: #64ffda;
+  text-align: center;
+}
+
+.jobs .inner div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs .inner .jobs-about {
+  display: inline-block;
+}
+
+.jobs .inner .jobs-about span {
+  color: #64ffda;
+}
+
+.jobs .inner .jobs-about h3 {
+  text-align: left;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+}
+
+.jobs .inner .jobs-about h3 .inline-calibre {
+  font-size: 20px;
+}
+
+.jobs .inner .jobs-about .job-date {
+  font-family: SF-Mono, Fallback, monospace;
+  color: #a8b2d1;
+  font-size: 15px;
+}
+
+.jobs .inner ul li p {
+  text-align: justify;
+  margin: 10px 20px;
+  padding: 0;
+}
+
+.jobs .inner ul li::marker {
+  content: '▹';
+  position: absolute;
+  left: 0px;
+  color: #64ffda;
+}

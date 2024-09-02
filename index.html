@@ -1,99 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <link rel="stylesheet" href="styling.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">    <title>Adarsh Pandey</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- ------------------------- -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ------------------------- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/Assets/CSS/Main.css" />
+    <title>आदर्श पाण्डेय</title>
+  </head>
+  <body>
     <header>
-        <div id="logo">
-            <p>Adarsh Pandey</p>
+      <div class="header">
+        <div class="logo">
+          <p>आदर्श पाण्डेय</p>
         </div>
-        <nav id="nav-bar">
+        <!-- ///////////////Full Screen/////////////// -->
+        <div class="moniter">
+          <div class="nav">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#Home">Home</a>
+                </li>
+                <li>
+                  <a href="#About">About</a>
+                </li>
+                <li>
+                  <a href="#Experience">Experience</a>
+                </li>
+                <li>
+                  <a href="#Work">Work</a>
+                </li>
+                <li>
+                  <a href="#Contact">Contact</a>
+                </li>
+                <li>
+                  <a href="./Assets/Docs/Adarsh Pandey.pdf" download>
+                    <button class="button">Resume</button></a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- <a href="./Assets/Docs/Adarsh Pandey.pdf" download>
+              <button class="button">Resume</button></a
+            > -->
+          </div>
+          <!-- ///////////////Full Screen/////////////// -->
+          <!-- ///////////////Mobile Screen/////////////// -->
+        </div>
+        <div class="mobile">
+          <div class="hambergur">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <nav class="navbar fullscreen">
             <ul>
-                <li><a class="bar-box" href="#0">Home</a></li>
-                <li><a class="bar-box" href="#0">Certeficates</a></li>
-                <li><a class="bar-box" href="#0">projects</a></li>
-                <li><a class="bar-box" href="#0">About</a></li>
-                <li><a class="bar-box" href="#0">Contact</a></li>
+              <li class="close2" style="--animation-order: 1">
+                <a href="#Home">Home</a>
+              </li>
+
+              <li class="close2" style="--animation-order: 2">
+                <a href="#About">About</a>
+              </li>
+              <li class="close2" style="--animation-order: 3">
+                <a href="#Experience">Experience</a>
+              </li>
+              <li class="close2" style="--animation-order: 4">
+                <a href="#Work">Work</a>
+              </li>
+              <li class="close2" style="--animation-order: 5">
+                <a href="#Contact">Contact</a>
+              </li>
+              <li class="close2" style="--animation-order: 5">
+                <a href="./Assets/Docs/Adarsh Pandey.pdf" download>
+                  <button class="button">Resume</button></a
+                >
+              </li>
             </ul>
-            <div id="hamburder-menu">
-                <input type="checkbox" id="ham-menu-logo">
-                <label id="burger" for="ham-menu-logo">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </label>
-                <nav id="ham-menu">
-                    <ul>
-                        <li><a href="#0">Home</a></li>
-                        <li><a href="#0">Certeficates</a></li>
-                        <li><a href="#0">projects</a></li>
-                        <li><a href="#0">About</a></li>
-                        <li><a href="#0">Contact</a></li>
-                    </ul>
-                    <div id="social">
-                        <a href="#0">facebook</a>
-                        <a href="#0">github</a>
-                        <a href="#0">instagram</a>
-                    </div>
-                </nav>
+            <div class="close1">
+              <div></div>
             </div>
-        </nav>
+          </nav>
+        </div>
+      </div>
+      <!-- ///////////////Mobile Screen/////////////// -->
     </header>
-    <section id="introduction">
-        <div id="intro">
-            <div>
-                <h1>Bringing ideas to Life and Loving It!</h1>
-                <h3>Hello! I'm Adarsh. How's it going?</h3>
-                <p> I'm a Delhi based web designer & front‑end developer.
-                    I enjoy creating things that live on the internet, whether that be websites, UI/UX design, or anything in between. 
-                    My goal is to always build products that provide pixel-perfect, performant experiences.
-                    <br/><br/>
-                    Currently, I am completing my graduation & work on a wide variety of interesting and meaningful projects daily.
-                    <br/><br/>
-                    Here are a few technologies I've been working with recently but I am always excited to learn new technologies!
-                </p>
-                <br/>
-                <div id="language">
-                    <div>
-                        <ul>
-                            <li>JavaScript (ES6+)</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- ///////////// -->
+
+    <main id="Home" class="main">
+      <div class="wrapper1">
+        <h3>
+          <span class="inline-mono"> --> Hi, my name is</span>
+        </h3>
+        <h1>Adarsh Pandey. <br /></h1>
+        <h1 style="color: #ccd6f6; padding-top: 0.5rem">
+          I build things for the web.
+        </h1>
+        <div>
+          <p>
+            I am a Cloud Engineer specializing in
+            <a
+              class="inline-calibre"
+              href="https://cloud.google.com"
+              target="_blank"
+              style="padding-right: 5px"
+              ><span> GCP</span></a
+            >and
+            <a
+              class="inline-calibre"
+              href="https://aws.amazon.com"
+              target="_blank"
+              ><span>AWS </span></a
+            >
+            . Currently, I am focused on learning new skills and employed as GCP Cloud Engineer in
+            <a href="https://www.persistent.com/" target="_blank"
+              ><span class="inline-calibre">Persistent Systems</span></a
+            >
+            .
+          </p>
+        </div>
+        <a
+          href="mailto:adarshpandey022@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="button">Get In Touch</button>
+        </a>
+      </div>
+      <section id="About" class="card">
+        <h2 class="heading-line">About Me</h2>
+        <div class="card-inner">
+          <div class="card-grid1">
+            <p class="card-p-top">
+              Hello👋🏼! I'm Adarsh. I enjoy creating things that live on the
+              internet. My interest in Cloud started back in college, when I
+              first saw a Hotstar video explaining how they singlehanded used
+              India's 70% internet bandwidth to stream India vs New Zealand 2019
+              Cricket World Cup match. Unfortunately, India lost that match, but
+              Hotstar made a world record that day of 25.3 M concurrent users.
+              This video hit me with Infinite Possibilities in Cloud Computing.
+            </p>
+            <p class="card-p-bottom">
+              Fast-forwarding to today, I am currently working in
+              <a href="https://www.mediaagility.com/" target="_blank"
+                ><span class="inline-calibre">Persistent Systems</span></a
+              >
+              as a GCP Cloud Engineer on a variety of exciting projects.
+            </p>
+          </div>
+
+          <picture>
+            <div class="img-overlay1"></div>
+            <img src="Assets/Images/Semi_formal.jpg" alt="Adarsh img" />
+          </picture>
+        </div>
+        <div class="card-inner">
+          <div class="list-box">
+            <p class="list-box-top">Technologies I am working on:</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>React Redux</li>
+              <li>GCP - PCA Certified</li>
+              <li>Docker</li>
+              <li>Terraform</li>
+              <li>AWS</li>
+              <li>Kubernetes</li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <p>Hobbies:</p>
+            <ul>
+              <li>Travelling</li>
+              <li>Light Novel's</li>
+              <li>Manga</li>
+              <li>Anime</li>
+              <li>Music</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="Experience" class="jobs">
+        <h2 class="heading-line">Where I’ve Worked</h2>
+        <div class="inner">
+          <div>
+            <div class="text-rotate">
+              <p>Persistent Systems Limited</p>
             </div>
+            <div class="jobs-about">
+              <h3>
+                Cloud Engineer<span>@</span
+                ><a href="https://www.persistent.com" target="_blank">
+                  <span class="inline-calibre">Persistent Systems</span> </a
+                ><br />
+                <span class="job-date">April 2022 - Present</span>
+              </h3>
+              <ul>
+                <li>
+                  <p>
+                    Provide advice and information to customers regarding
+                    general cloud infrastructure as service offerings and best
+                    practices
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    Performing deployment in multiple environments like DEV, UAT
+                    and Prod.
+                  </p>
+                </li>
+              </ul>
+              <h3>
+                Cloud Engineer Trainee<span>@</span
+                ><a href="https://www.persistent.com" target="_blank">
+                  <span class="inline-calibre">Persistent Systems</span> </a
+                ><br />
+                <span class="job-date">June 2021 - April 2022</span>
+              </h3>
+              <ul>
+                <li>
+                  <p>
+                    Interacting with clients, providing cloud support, and
+                    making recommendations based on client needs.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Managing GCE, GCS, LB and internal network connectivity b/w
+                    all the GCP resources.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="text-rotate">
+              <p>Adaan Digital Solutions</p>
+            </div>
+            <div class="jobs-about">
+              <h3>
+                Jr Developer Intern <span>@</span>
+                <a href="https://www.adaan.com/" target="_blank">
+                  <span class="inline-calibre"> Adaan Solutions </span></a
+                >
+                <br />
+                <span class="job-date">April - June 2021</span>
+              </h3>
+              <ul>
+                <li>
+                  <p>
+                    Tasked to make websites from PSD image and XD links on WIX.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Manually tested sites in various browsers and mobile devices
+                    to ensure cross-browser compatibility and responsiveness
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Developed and maintained code for in-house and client
+                    websites primarily using HTML, CSS, Sass, JavaScript, and
+                    jQuery
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div id="details">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus eos repellat, provident ducimus nihil? Eaque voluptate eius earum provident, saepe modi debitis reprehenderit. Ipsam rerum tempore neque voluptatum? Molestiae?</p>
-            <p>Impedit laborum corporis nesciunt quam eveniet quae similique voluptatum sunt doloribus, maxime delectus quo unde recusandae! Ipsam officia laborum eveniet, iure, culpa molestias repellendus expedita aliquid cum velit animi impedit!</p>
-            <p>Quidem quibusdam, inventore unde, omnis reprehenderit est voluptates minima ipsum, quis nihil molestiae veritatis commodi tempore? Debitis molestiae dolorum, officiis nobis veniam, magni ullam illum nihil labore quis quibusdam sed!</p>
-            <p>Alias natus tempore architecto voluptas saepe illo maiores quam mollitia eos. Tempore nihil ad sed vel iusto, voluptatibus placeat nesciunt cumque quia, tempora voluptate quaerat suscipit fugit et dignissimos at.</p>
+      </section>
+      <section id="Work" class="work">
+        <h2 class="heading-line">My Work</h2>
+        <div class="container">
+          <!-- ///////////////////////// -->
+          <div class="work-card">
+            <div class="btn-6 borderAnimation">
+              <span class="span">
+                <div class="container-box">
+                  <div class="container-box-2">
+                    <div class="card-header">
+                      <h3>Crypto App</h3>
+                      <a
+                        href="https://github.com/adarsh022/Crypto-App"
+                        target="_blank"
+                      >
+                        <img
+                          src="./Assets/Images/icons8-github-384.png"
+                          alt="Git img"
+                      /></a>
+                    </div>
+                    <p>
+                      Created a google keep clone using firebase authentication
+                      and cloudinary to add images to the cloud.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Axios</li>
+                    <li>Ant Design</li>
+                  </ul>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="btn-6 borderAnimation">
+              <span class="span">
+                <div class="container-box">
+                  <div class="container-box-2">
+                    <div class="card-header">
+                      <h3>iKeep</h3>
+                      <a
+                        href="https://github.com/adarsh022/iKeep"
+                        target="_blank"
+                        ><img
+                          src="./Assets/Images/icons8-github-384.png"
+                          alt="Git img"
+                      /></a>
+                    </div>
+                    <p>
+                      Created a google keep clone using firebase authentication
+                      and cloudinary to add images to the cloud.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>React</li>
+                    <li>Axios</li>
+                    <li>Firebase</li>
+                    <li>React Bootstrap</li>
+                  </ul>
+                </div></span
+              >
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="btn-6 borderAnimation">
+              <span class="span">
+                <div class="container-box">
+                  <div class="container-box-2">
+                    <div class="card-header">
+                      <h3>Covid Tracker</h3>
+                      <a
+                        href="https://github.com/adarsh022/Covid-Tracker"
+                        target="_blank"
+                        ><img
+                          src="./Assets/Images/icons8-github-384.png"
+                          alt="Git img"
+                      /></a>
+                    </div>
+
+                    <p>
+                      Created a covid tracker app to display data in graphs.
+                      Hear you can search data country and state wise.
+                    </p>
+                  </div>
+                  <ul>
+                    <li>React</li>
+                    <li>Axios</li>
+                    <li>Chart.js</li>
+                  </ul>
+                </div></span
+              >
+            </div>
+          </div>
+
+          <!-- ///////////////////////// -->
         </div>
-    </section>
-    <section id="certeficates">
-        <h1>certeficates</h1>
-        <div id="certificates_gallery">
-            <img src="images/AMCAT certi.png" alt="AMCAT certificate">
-            <img src="images/Data analysis.png" alt="Data analysis">
-            <img src="images/HTML,CSS&Javascript.png" alt="HTML,CSS&Javascript">
-            <img src="images/Python functions file & dir.png" alt="Python functions file & dir">
-            <img src="images/Python.png" alt="Python">
-            <img src="images/Certificate.png" alt="certificate">
-        </div>
-    </section>
-    <script type="text/javascript" src="javascript.js">
-	</script>
-</body>
+      </section>
+      <section id="Contact" class="contact">
+        <p class="inline-mono">What’s Next?</p>
+        <h1>Get In Touch</h1>
+        <p>
+          Actively looking for new job opportunities or any side hustle. My
+          inbox is always open, whether you have a question or just want to say
+          hi, I'll try my best to get back to you!
+        </p>
+        <!-- <p>
+          Although I'm not currently looking for any new opportunities, my inbox
+          is always open. Whether you have a question or just want to say hi,
+          I'll try my best to get back to you!
+        </p> -->
+        <a
+          href="mailto:adarshpandey022@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="button">Say Hello</button>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <div class="logo">
+        <p>आदर्श पाण्डेय</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./src/Assets/JS/ham.js"></script>
+  </body>
 </html>

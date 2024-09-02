@@ -1,0 +1,125 @@
+@import './Consts';
+
+.card {
+  max-width: 900px;
+  padding: 100px 0;
+  text-align: left;
+
+  p {
+    text-align: justify;
+    line-height: 26px;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    list-style: none;
+    li {
+      font-family: 'Poppins', sans-serif;
+      color: #8892b0;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 0px;
+      line-height: 20px;
+    }
+    li:before {
+      color: $secondary-color;
+      content: '▹';
+      box-sizing: border-box;
+    }
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+  }
+}
+
+.card-grid1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-p-top {
+  margin: 0;
+}
+
+.card-inner {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 3fr 2fr;
+  picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+  }
+  .img-overlay1 {
+    position: absolute;
+    background-color: $secondary-color;
+    opacity: 0.5;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    transition: background-color 500ms;
+  }
+  .img-overlay1:hover {
+    background-color: transparent;
+  }
+}
+
+.list-box {
+  p {
+    color: #ccd6f6;
+    margin-top: 0;
+  }
+  .list-box-top {
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    li {
+      float: left;
+      border: 1px solid $secondary-color;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    li:before {
+      content: '';
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .card-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0;
+  }
+  .list-box-top {
+    margin-top: 20px !important;
+  }
+  .list-box {
+    ul {
+      justify-content: center;
+    }
+    li {
+      padding: 0.5rem !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+  .card {
+    padding: 0 !important;
+  }
+}
