@@ -1,7 +1,9 @@
 footer .logo p {
   margin-bottom: 0px;
+  font-weight: normal !important;
 }
 
 footer P {
   margin-top: 10px;
+  font-weight: normal !important;
 }
