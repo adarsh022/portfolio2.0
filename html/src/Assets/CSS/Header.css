@@ -189,12 +189,7 @@ ul {
 
 .logo a {
   color: #fff;
-  text-decoration: none !important;
-}
-
-.logo a p {
-  
-  font-weight: normal !important;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1000px) {
