@@ -28,8 +28,8 @@
 }
 
 .work .container-box .container-box-2 .card-header {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   justify-content: space-between;
 }
 
@@ -41,13 +41,13 @@
 .work h3 {
   color: #ccd6f6;
   font-size: 1.2rem;
-  text-align: left;
+  text-align: center;
   font-family: 'Poppins', monospace;
 }
 
 .work p {
   font-size: 1rem;
-  text-align: start;
+  text-align: center;
 }
 
 .work ul {
@@ -56,7 +56,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
