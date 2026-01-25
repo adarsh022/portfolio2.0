@@ -3,19 +3,19 @@ steps:
     args:
       - build
       - '-t'
-      - 'asia-south2-docker.pkg.dev/project-001-v1/docker-central/portfolio:$COMMIT_SHA'
+      - 'asia-south2-docker.pkg.dev/project-002-v2/docker-central/portfolio:$COMMIT_SHA'
       - .
   - name: gcr.io/cloud-builders/docker
     args:
       - push
-      - 'asia-south2-docker.pkg.dev/project-001-v1/docker-central/portfolio:$COMMIT_SHA'
+      - 'asia-south2-docker.pkg.dev/project-002-v2/docker-central/portfolio:$COMMIT_SHA'
   - name: gcr.io/google.com/cloudsdktool/cloud-sdk
     args:
       - run
       - deploy
       - portfolio
       - '--image'
-      - 'asia-south2-docker.pkg.dev/project-001-v1/docker-central/portfolio:$COMMIT_SHA'
+      - 'asia-south2-docker.pkg.dev/project-002-v2/docker-central/portfolio:$COMMIT_SHA'
       - '--region'
       - asia-south2
       - '--platform'
@@ -23,7 +23,7 @@ steps:
     entrypoint: gcloud
 timeout: 1200s
 images:
-  - 'asia-south2-docker.pkg.dev/project-001-v1/docker-central/portfolio:$COMMIT_SHA'
+  - 'asia-south2-docker.pkg.dev/project-002-v2/docker-central/portfolio:$COMMIT_SHA'
 options:
   logging: CLOUD_LOGGING_ONLY
-serviceAccount: '659243537741@cloudbuild.gserviceaccount.com'
+serviceAccount: 'portfolio@project-002-v2.iam.gserviceaccount.com'
