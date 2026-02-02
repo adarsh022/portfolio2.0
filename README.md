@@ -1,21 +1,24 @@
 # Portfolio 2.0 - Adarsh Pandey
 
-This repository contains the source code for the personal portfolio website of **Adarsh Pandey**, a Lead Cloud Engineer specializing in GCP and AWS. The site showcases professional experience, technical skills, blog posts, and contact information.
+This repository contains the source code for the personal portfolio website of **Adarsh Pandey**, a Google Cloud Engineer with 5+ years of experience specializing in GCP and AWS. The site showcases professional experience, technical skills, blog posts, and contact information.
 
 ## 🚀 Features
 
--   **Responsive Design:** Fully optimized for desktop and mobile interfaces with a custom hamburger menu.
--   **About Section:** Professional summary highlighting Cloud Engineering expertise.
--   **Experience Timeline:** Detailed work history at companies like Persistent Systems and Adaan Digital Solutions.
--   **Blog Integration:** Direct links to technical articles on Medium regarding GCP and Cloud Automation.
+-   **Modern Responsive Design:** Fully optimized for desktop and mobile with a sleek hamburger menu and smooth animations.
+-   **Typing Animation:** Dynamic hero section with a rotating text effect.
+-   **About Section:** Professional summary highlighting Cloud Engineering expertise and 3 Google Cloud certifications.
+-   **Technologies Section:** Showcases key technologies and tools used.
+-   **Experience Timeline:** Interactive tabbed work history at Capgemini, Persistent Systems, and Adaan Digital.
+-   **Blog Integration:** 6 technical articles on Medium covering GCP, Cloud SQL, Networking, and Automation.
 -   **Resume Download:** Easy access to download the latest resume.
+-   **Google Analytics:** Integrated tracking for visitor insights.
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 -   **HTML5**
--   **CSS3 / SASS** (SCSS for styling)
--   **JavaScript** (jQuery for DOM manipulation)
+-   **CSS3** (Modern CSS with custom properties/variables)
+-   **Vanilla JavaScript** (No jQuery dependency)
 -   **Google Fonts** (Poppins, Roboto Slab)
 
 ### Infrastructure & DevOps
@@ -30,16 +33,15 @@ This repository contains the source code for the personal portfolio website of *
 ```text
 portfolio2.0/
 ├── cloudbuild.yaml          # CI/CD configuration for Google Cloud Build
+├── README.md
 ├── html/
 │   ├── index.html           # Main HTML entry point
+│   ├── style.css            # Main stylesheet
+│   ├── script.js            # JavaScript for interactions
 │   ├── favicon.ico
-│   ├── src/
-│   │   ├── Assets/
-│   │   │   ├── CSS/         # Compiled CSS files
-│   │   │   ├── SASS/        # Source SASS stylesheets
-│   │   │   ├── JS/          # JavaScript logic (e.g., ham.js)
-│   │   │   ├── Images/      # Static assets
-│   │   │   └── Docs/        # Resume PDF
+│   └── Assets/
+│       ├── Images/          # Static image assets
+│       └── Docs/            # Resume PDF
 ```
 
 ## ☁️ Deployment
