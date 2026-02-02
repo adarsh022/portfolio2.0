@@ -2,7 +2,7 @@
   max-width: 900px;
   padding: 100px 0;
   margin: auto;
-/* max-width: 900px;
+  /* max-width: 900px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,12 +68,15 @@
   .text-rotate {
     display: none !important;
   }
+
   .container {
     display: block !important;
   }
+
   .work-card {
     margin-bottom: 1rem;
   }
+
   .work {
     padding-top: 100px !important;
     padding-bottom: 0 !important;
